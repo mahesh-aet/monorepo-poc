@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'clean' ],
+0 silly argv   y: true,
+0 silly argv   yes: true,
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\MaheshKulathunga\Desktop\mono-nextjs\building-monorepos-using-lerna
+3 info clean removing C:\Users\MaheshKulathunga\Desktop\mono-nextjs\building-monorepos-using-lerna\packages\components\node_modules
+4 silly rimrafDir C:\Users\MaheshKulathunga\Desktop\mono-nextjs\building-monorepos-using-lerna\packages\components\node_modules
+5 info clean removing C:\Users\MaheshKulathunga\Desktop\mono-nextjs\building-monorepos-using-lerna\packages\front-end\node_modules
+6 silly rimrafDir C:\Users\MaheshKulathunga\Desktop\mono-nextjs\building-monorepos-using-lerna\packages\front-end\node_modules
+7 error Error: Command failed with exit code 1: C:\Program Files\nodejs\node.exe C:\Users\MaheshKulathunga\AppData\Roaming\npm\node_modules\lerna\node_modules\rimraf\bin.js --no-glob C:\Users\MaheshKulathunga\Desktop\mono-nextjs\building-monorepos-using-lerna\packages\front-end\node_modules\
+7 error     at makeError (C:\Users\MaheshKulathunga\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\lib\error.js:60:11)
+7 error     at handlePromise (C:\Users\MaheshKulathunga\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:118:26)
+7 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
