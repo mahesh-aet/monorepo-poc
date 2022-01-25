@@ -1,9 +1,9 @@
 # monorepo-poc
-# used nextjs and lerna
+# used next-js and lerna
 # steps:
-     1) git init building-monorepos-using-lerna && cd building-monorepos-using-lerna
-     2) lerna init
-     3) cd packages && yarn create next-app front-end
+     1. git init building-monorepos-using-lerna && cd building-monorepos-using-lerna
+     2. lerna init
+     3. cd packages && yarn create next-app front-end
      4. lerna create components
      5. cd packages/components && yarn add microbundle -D
      6. add one script inside our components package’s package.json file: "scripts": {
